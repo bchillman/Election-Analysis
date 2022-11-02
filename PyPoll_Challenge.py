@@ -113,7 +113,7 @@ with open(file_to_save, "w") as txt_file:
     # 7: Print the county with the largest turnout to the terminal.
     largest_county_results = (
         f"-------------------------------\n"
-        f"Largest County: {largest_county}\n"
+        f"Largest County: {largest_county} \n"
         f"Largest County Turnout: {largest_votes:,}\n"
         f"-------------------------------\n")
     print(largest_county_results)
