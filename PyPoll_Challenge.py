@@ -6,9 +6,9 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("Desktop", "Bootcamp", "Module 3 - Python - PyPoll", "election-analysis", "Resources", "election_results.csv")
+file_to_load = os.path.join("Resources", "election_results.csv")
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("Desktop", "Bootcamp", "Module 3 - Python - PyPoll", "election-analysis", "Analysis", "election_results.txt")
+file_to_save = os.path.join("Analysis", "election_results.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
