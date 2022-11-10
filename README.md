@@ -36,4 +36,4 @@ The analysis of the election show that:
   - Denver County, which had 82.8% of the voters (306,055 voters)
   
 ## Election-Audit Summary
-This script can be used for any election. It takes votes from a csv file, and reads the number of votes for each candidate 
+This script can be used for any election. It takes votes from a csv file, and reads the number of votes for each candidate as well as the number of votes from each county. This script can be used for any election, as it reads the candidates and counties from the file and doesn't need any prior information about the election. This is done with the following section of code Thus, by just making sure that the file is pathed to correctly
