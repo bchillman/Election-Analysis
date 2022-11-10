@@ -44,4 +44,5 @@ Here, if the candidate is not already in the list of candidates, they are added 
 ### Modifications
 There may need to be some modifications to be used for other elections. First, currently the numbers of votes for a candidate and the number of votes in a county are seperate. These could be combined for useful information about how many votes there are for each candidate in each county. This can be done by combining, or nesting, the *if* functions that are used to count votes for candidates or counties, respectively. Second, as mentioned above, the pathing to and reading of the results file may need to be changed. If the file is a csv file, then it needs to be made sure that the following line of code correctly paths to the file:
 ![code-2](https://github.com/bchillman/Election-Analysis/blob/main/Resources/code-2.PNG)
+
 If the file is not a csv file, then it needs to be correctly read. The script currently uses the *csv.reader* function to read the file, and a different function will likely need to be used.
